@@ -41,6 +41,16 @@
 
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/txtCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="🔥 Калории: 0.00 ккал"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
         <Button
             android:id="@+id/btnPause"
             android:layout_width="180dp"
@@ -50,6 +60,13 @@
             android:textAllCaps="false"
             android:textColor="#00B7FF"
             android:backgroundTint="#FFFFFF"/>
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/stepChart"
+            android:layout_width="330dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="25dp"/>
 
     </LinearLayout>
 

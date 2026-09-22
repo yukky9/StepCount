@@ -4,12 +4,13 @@ plugins {
 
 android {
     namespace 'com.example.stepcount'
-    compileSdk 35
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.example.stepcount"
         minSdk 28
-        targetSdk 35
+        //noinspection OldTargetApi
+        targetSdk 36
         versionCode 1
         versionName "1.0"
 
